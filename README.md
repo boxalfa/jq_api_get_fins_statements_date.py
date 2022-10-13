@@ -5,9 +5,9 @@ J-QuantsAPIベータ版で、日付期間を指定して財務情報を取得す
 
 ２）実行はコマンドプロンプト等からpython環境で起動してください。
   
-  起動 ./jq_api_get_fins_statements_date.py from=[yyyymmdd] to=[yyyymmdd]
-
   有効期限内のIDトークンをファイルに保存してある必要が有ります。
+    
+    # 起動:  ./jq_api_get_fins_statements_date.py  from=[yyyymmdd]  to=[yyyymmdd]
       
     # ＩＤトークン保存ファイル名: 'jq_idtoken.json'
     
